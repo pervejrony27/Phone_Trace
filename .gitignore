@@ -1,0 +1,87 @@
+# ==========================================
+# SECRETS & CREDENTIALS - NEVER UPLOAD
+# ==========================================
+config.py
+truecaller_creds.json
+*.session
+*.session-journal
+.env
+.env.*
+.env.local
+.env.production
+secrets.py
+credentials.json
+token.json
+auth.json
+
+# ==========================================
+# REPORTS & OUTPUT DATA
+# ==========================================
+reports/*.json
+reports/*.html
+reports/*.jpg
+reports/*.jpeg
+reports/*.png
+!reports/.gitkeep
+output/
+downloads/
+
+# ==========================================
+# PYTHON
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+.eggs/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================================
+# VIRTUAL ENVIRONMENT
+# ==========================================
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# ==========================================
+# IDE & EDITOR FILES
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ==========================================
+# OS FILES
+# ==========================================
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# LOGS & TEST DATA
+# ==========================================
+*.log
+logs/
+test_numbers.txt
+targets.txt
+numbers.txt
+scan_results/
